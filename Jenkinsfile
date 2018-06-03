@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'BuildStage'
-        sh '$(( ( RANDOM % 10 )  + 1 ))'
+        sh 'echo "james"'
       }
     }
   }
