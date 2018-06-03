@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'BuildStage'
         sh '''echo "Starting"
-thewinner=$(shuf -i 1-10 -n 1)
+thewinner=$(shuf -i 99-199 -n 1)
 echo "The Winner is : " $thewinner'''
       }
     }
