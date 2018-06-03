@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Email Success ') {
       steps {
-        emailext(subject: 'Success', body: 'Success', from: 'me@me.com', to: 'jamesgress@hotmail.com')
+        emailext(subject: 'Success', body: 'Success', from: 'me@me.com', to: 'jamesgress@hotmail.com', replyTo: 'me@me.com')
       }
     }
   }
