@@ -4,8 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         echo 'BuildStage'
-        build 'maven'
-        error 'Error'
       }
     }
     stage('CodeQuality') {
