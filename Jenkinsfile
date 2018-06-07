@@ -47,7 +47,7 @@ echo "The Winner is : " $thewinner
 thewinner=$(shuf -i 1-10 -n 1)
 echo "The Winner is : " $thewinner
 
-thewinner=$(shuf -i 1-10 -n 1)
+thewinner=$(shuf -i 690388-690410 -n 1)
 echo "The Winner is : " $thewinner
 
 thewinner=$(shuf -i 1-10 -n 1)
