@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build Stage'
-        sh '''#!/bin/bash set +x
+        sh '''set +x
 
 createDockerContainer() {
 	echo $1, $2
