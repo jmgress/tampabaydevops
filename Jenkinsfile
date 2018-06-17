@@ -27,7 +27,8 @@ elif [ "$ENVIRONMENT_TYPE" = "PROD" ]; then
 
 	echo "PRODA" , "tomcatA.conf"
     export ENVIRONMENT_NAME=$1
-    export SERVICE_NAME="$(echo ${PROJECT_NAME} | tr \\\'/\\\' \\\'_\\\')_${ENVIRONMENT_NAME}"'''
+    export SERVICE_NAME="$(echo ${PROJECT_NAME} | tr \\\'/\\\' \\\'_\\\')_${ENVIRONMENT_NAME}"
+fi'''
       }
     }
     stage('Test Firefox') {
